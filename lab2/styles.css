@@ -1,0 +1,38 @@
+
+
+header, main{
+  background-color: #FCE4eC;
+  overflow: auto;
+
+}
+main{
+  display: flex;
+}
+section{
+  overflow: auto;
+}
+p{
+  padding-left: 1em;
+  padding-right: 0.2em;
+  margin: 0.1em;
+}
+
+nav{
+  display: flex;
+  background-color: red;
+  border-radius: 1em;
+  flex-shrink: 0;
+
+}
+nav a{
+  background-color: blue;
+  color: black;
+  padding: 0.2em;
+  margin: 1em;
+  border-radius: 1em;
+  transition: background-color 0.5s;
+  flex-direction: row;
+}
+nav a:hover{
+  background-color: #Ffff;
+}

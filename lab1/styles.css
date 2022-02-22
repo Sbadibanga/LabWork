@@ -1,0 +1,14 @@
+body {
+  width: 900px;
+  margin: auto;
+  background-color: #099;
+  color: yellow;
+}
+h1{
+  font-family: monospace;
+}
+
+.special{
+  background-color: yellow;
+  color: red;
+}
